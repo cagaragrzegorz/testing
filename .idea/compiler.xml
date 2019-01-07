@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="java-junit_main" target="1.8" />
+      <module name="java-junit_test" target="1.8" />
       <module name="testing_main" target="1.8" />
       <module name="testing_test" target="1.8" />
     </bytecodeTargetLevel>
