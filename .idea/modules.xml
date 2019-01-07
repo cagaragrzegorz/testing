@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-junit.iml" filepath="$PROJECT_DIR$/.idea/modules/java-junit.iml" group="java-junit" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-junit/java-junit_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-junit/java-junit_main.iml" group="java-junit" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-junit/java-junit_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-junit/java-junit_test.iml" group="java-junit" />
