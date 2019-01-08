@@ -4,12 +4,11 @@ import lombok.Builder;
 
 @Builder
 public class Game {
-    public String name;
-    public Double price;
-    public Double rank;
-    public GameType type;
-    public boolean isInPossession;
-
+    private String name;
+    private Double price;
+    private Double rank;
+    private GameType type;
+    private boolean isInPossession;
 
     @Override
     public String toString() {
