@@ -1,5 +1,7 @@
-import domain.Game;
-import domain.GameFactory;
+package com.testing;
+
+import com.testing.domain.Game;
+import com.testing.domain.GameFactory;
 
 public class JavaJUnitMain {
 
