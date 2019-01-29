@@ -25,15 +25,14 @@ public class AppRunner {
         return games.stream()
                 .filter(Game::isInPossession)
                 .max(Comparator.comparing(Game::getRank))
-                .get();
+                .orElse(null);
     }
 
     public Game filterBestGame() {
         return games.stream()
                 .filter(Game::isInPossession)
-                .filter(g -> g.getRank() > 5.0d)
-                .min(Comparator.comparing(Game::getPrice))
-                .get();
+                .reduce((g1, g2) -> g1.getRank() * 1 / g1.getPrice() > g2.getRank() * 1 / g2.getPrice() ? g1 : g2)
+                .orElse(null);
     }
 
     private List<Game> generateGames() {
